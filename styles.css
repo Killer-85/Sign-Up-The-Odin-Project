@@ -1,0 +1,101 @@
+@font-face {
+    font-family: header;
+    src: url(./Resources/Fonts/Norse-Bold.otf);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(./Resources/Fonts/Roboto-Light.ttf);
+}
+
+body{
+    font-family: 'Roboto';
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.myform{
+    display: flex;
+    max-width: 1000px;
+}
+
+.sidebar{
+    flex: 1.5;
+    background-image: url(./Resources/halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.logo{
+    height: 100px;
+}
+
+h1{
+    font-size: 75px;
+    color: white;
+    padding: 0;
+    margin: 0;
+    font-family: 'header';
+}
+
+.sidebar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+img{
+    height: 100vh;
+    background-size: cover;
+    
+}
+
+.sidebar-image{
+    display: flex;
+    align-items: center;
+}
+
+.main-content{
+    flex: 3;
+    padding: 5rem 2rem 5rem 2rem;
+}
+
+label{
+    display: block;
+}
+
+.row{
+    display: flex;
+    margin-bottom: 1.25rem;
+}
+
+.col{
+    flex: 1;
+}
+
+.main-content{
+    background-color: #f9fafb;
+}
+
+.middle{
+    background-color: white;
+    box-shadow: 2px 4px 12px rgb(89, 109, 72,0.2);
+}
+
+button{
+    background-color: #596D48;
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 5px;
+}
+
+a{
+    color: #596D48;
+    text-decoration: none;
+}
